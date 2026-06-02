@@ -1,10 +1,10 @@
 {
-  "version": "7.09",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.09.exe",
-  "sha256": "cb69d0c2c1d048999e544ec4ffd11e680dbac55777c75d9b4c7b52909b809dc5",
-  "size_bytes": 56610339,
+  "version": "7.10",
+  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.10.exe",
+  "sha256": "103566f7cc5636ab66a7b69e4311dbd9daac072d71c76a21e342e9297d04b527",
+  "size_bytes": 56610481,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Fixes Telegram login database lock on fresh VPS installs and cleans broken UI characters in the web dashboard.",
-  "released": "2026-06-02T10:35:14Z"
+  "notes": "Closes Telethon session handles explicitly to prevent Telegram group fetch database locks. Update helper now runs hidden after UAC so users do not close the PowerShell swap window.",
+  "released": "2026-06-02T10:52:41Z"
 }
