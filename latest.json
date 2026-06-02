@@ -1,10 +1,10 @@
 {
-    "version":  "7.02",
+    "version":  "7.03",
     "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge.exe",
-    "sha256":  "57474f64aec70730c8564a78cefb4bdf0338945ffebcf8178d0e7acdc6464cc9",
-    "size_bytes":  56608485,
+    "sha256":  "d9695e513f19d047365cede1a3449f3201af2fd1237a32bae6e5b614ff1e25aa",
+    "size_bytes":  56607084,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Fixes reply commands for TP1/TP2/TP3 and take-profit updates, prevents closed MT5 tickets from being resurrected by heartbeat, adds a sidebar update notice, hardens restart after update, and tolerates BOM-prefixed update manifests.",
-    "released":  "2026-06-02T07:32:22Z"
+    "notes":  "Adds sidebar Telegram support links below Settings, cleans the About/support text, and keeps the v7.02 reply-command and updater fixes.",
+    "released":  "2026-06-02T08:20:18Z"
 }
