@@ -1,10 +1,10 @@
 {
-    "version":  "7.04",
+    "version":  "7.05",
     "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge.exe",
-    "sha256":  "f4d705dc95bae94ccd4174a1042e79713d9c6ccb8d5b4e74eb625c71fc575c27",
-    "size_bytes":  56605697,
+    "sha256":  "fbc824558ed98e64f4f00939765cfdada0c2c420be5c85612a4f71c9ae147bad",
+    "size_bytes":  56608930,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Restart verification update for v7.03. No trading logic changes; use this to confirm update notification and automatic restart after applying an update.",
-    "released":  "2026-06-02T08:35:59Z"
+    "notes":  "Hardens update apply/restart: the helper starts before shutdown, stops leftover Bridge processes, swaps the EXE with timestamped backup, relaunches from the install folder, and logs every step.",
+    "released":  "2026-06-02T08:45:30Z"
 }
