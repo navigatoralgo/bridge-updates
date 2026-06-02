@@ -1,10 +1,10 @@
 {
     "version":  "7.07",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge.exe",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.07.exe",
     "sha256":  "6d048d558b43015469799b9b897f59d80a6a3bb2d53c3c158854e738cf027ac7",
     "size_bytes":  56609726,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Fixes update apply for Program Files installs by launching the update helper with Windows admin elevation. Bridge now stays open if the helper cannot start.",
-    "released":  "2026-06-02T09:00:42Z"
+    "notes":  "Fixes update apply for Program Files installs by launching the update helper with Windows admin elevation. Bridge now stays open if the helper cannot start. Uses a versioned download file to avoid GitHub raw cache mismatches.",
+    "released":  "2026-06-02T09:02:17Z"
 }
