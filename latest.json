@@ -1,10 +1,10 @@
-{
-  "version": "7.01",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge.exe",
-  "sha256": "86ede287901aa7642df51b6e3ddcbd072960ecf58fb92c11a821faae94cbd1c2",
-  "size_bytes": 56606061,
-  "mandatory": false,
-  "min_version": "6.0.0",
-  "notes": "Updater restart test build. Keeps the v7 updater fixes: locked official feed, stale WebView cleanup, and WebView2 setup support.",
-  "released": "2026-06-02T04:51:31Z"
+﻿{
+    "version":  "7.02",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge.exe",
+    "sha256":  "2cabb7df304a2ef5b8c82a4c2286619e4eedc41002c25abe345bfb6458df99c7",
+    "size_bytes":  56607365,
+    "mandatory":  false,
+    "min_version":  "6.0.0",
+    "notes":  "Fixes reply commands for TP1/TP2/TP3 and take-profit updates, prevents closed MT5 tickets from being resurrected by heartbeat, adds a sidebar update notice, and hardens restart after update.",
+    "released":  "2026-06-02T07:28:44Z"
 }
