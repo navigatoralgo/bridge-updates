@@ -6,5 +6,6 @@
   "mandatory": false,
   "min_version": "6.0.0",
   "notes": "Closes Telethon session handles explicitly to prevent Telegram group fetch database locks. Update helper now runs hidden after UAC so users do not close the PowerShell swap window.",
-  "released": "2026-06-02T10:52:41Z"
+  "released": "2026-06-02T10:56:40Z",
+  "cache_bust": "manifest-refresh-7.10"
 }
