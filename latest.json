@@ -1,10 +1,10 @@
 {
-    "version":  "7.08",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.08.exe",
-    "sha256":  "4fd387fe4e52332b26bfc45bdced582de443813d817ebef18e6f2970c923f2f6",
-    "size_bytes":  56609036,
-    "mandatory":  false,
-    "min_version":  "6.0.0",
-    "notes":  "Restart verification update for v7.07 elevated updater. No trading logic changes. Uses a versioned download file to avoid GitHub raw cache mismatches.",
-    "released":  "2026-06-02T09:08:11Z"
+  "version": "7.09",
+  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.09.exe",
+  "sha256": "cb69d0c2c1d048999e544ec4ffd11e680dbac55777c75d9b4c7b52909b809dc5",
+  "size_bytes": 56610339,
+  "mandatory": false,
+  "min_version": "6.0.0",
+  "notes": "Fixes Telegram login database lock on fresh VPS installs and cleans broken UI characters in the web dashboard.",
+  "released": "2026-06-02T10:35:14Z"
 }
