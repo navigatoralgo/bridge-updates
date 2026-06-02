@@ -1,11 +1,10 @@
 {
-  "version": "7.10",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.10.exe",
-  "sha256": "103566f7cc5636ab66a7b69e4311dbd9daac072d71c76a21e342e9297d04b527",
-  "size_bytes": 56610481,
+  "version": "7.11",
+  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.11.exe",
+  "sha256": "70494f47bf7393ce45e5ff3490a7195c8e6a906b6e4f5afc0fbafc8a51a21596",
+  "size_bytes": 56610857,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Closes Telethon session handles explicitly to prevent Telegram group fetch database locks. Update helper now runs hidden after UAC so users do not close the PowerShell swap window.",
-  "released": "2026-06-02T10:56:40Z",
-  "cache_bust": "manifest-refresh-7.10"
+  "notes": "Fixes Telegram group fetch database locks by closing Telethon session handles explicitly and retrying short lock races. Update helper runs hidden after UAC. Future update checks use jsDelivr to avoid GitHub raw manifest cache delays.",
+  "released": "2026-06-02T10:59:46Z"
 }
