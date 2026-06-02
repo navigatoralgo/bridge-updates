@@ -1,10 +1,10 @@
 {
-  "version": "7.00",
+  "version": "7.01",
   "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge.exe",
-  "sha256": "4245acaf32b480bf5a293bb41d5c84dfb2df630e0e789667480efd9858eb98d6",
-  "size_bytes": 56605029,
+  "sha256": "86ede287901aa7642df51b6e3ddcbd072960ecf58fb92c11a821faae94cbd1c2",
+  "size_bytes": 56606061,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Adds installer support with stable NTS_Bridge.exe naming. Default data folder is C:\\nts_bridge, with a setup-selected override and legacy AppData migration. Update feed is locked to the official manifest. Startup now cleans stale update WebView windows.",
-  "released": "2026-06-02T04:38:22Z"
+  "notes": "Updater restart test build. Keeps the v7 updater fixes: locked official feed, stale WebView cleanup, and WebView2 setup support.",
+  "released": "2026-06-02T04:51:31Z"
 }
