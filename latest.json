@@ -1,10 +1,10 @@
 {
-    "version":  "7.05",
+    "version":  "7.06",
     "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge.exe",
-    "sha256":  "fbc824558ed98e64f4f00939765cfdada0c2c420be5c85612a4f71c9ae147bad",
-    "size_bytes":  56608930,
+    "sha256":  "8b702ff965c65c35bc814c143eb7e62e7219ede9249ada830e5af7707bfaa7fb",
+    "size_bytes":  56608592,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Hardens update apply/restart: the helper starts before shutdown, stops leftover Bridge processes, swaps the EXE with timestamped backup, relaunches from the install folder, and logs every step.",
-    "released":  "2026-06-02T08:45:30Z"
+    "notes":  "Restart verification update for v7.05. Also cleans Lite Mode text and removes the down arrow from Return to Lite Mode buttons.",
+    "released":  "2026-06-02T08:52:06Z"
 }
