@@ -1,10 +1,10 @@
 {
-  "version": "6.0.18",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/Bridge_v6_fixed18_client.exe",
-  "sha256": "7ca2dbbd57d0ebe2f54bdb13bc2cf24470bad2bdbffadda41dad77be46c8e7c0",
-  "size_bytes": 56602423,
+  "version": "6.0.19",
+  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge.exe",
+  "sha256": "a651344f052e62750cbe82765b8ebff44c7d3d107949096c161ec8dec94967b2",
+  "size_bytes": 56603303,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Adds safer staged updater with progress, rollback, longer download timeout, unified versioning, and graceful bridge stop before apply.",
-  "released": "2026-06-02T02:02:38Z"
+  "notes": "Adds installer support with stable NTS_Bridge.exe naming. Default data folder is C:\\nts_bridge, with a setup-selected override and legacy AppData migration.",
+  "released": "2026-06-02T04:11:54Z"
 }
