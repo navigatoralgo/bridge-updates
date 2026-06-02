@@ -1,10 +1,10 @@
 {
-    "version":  "7.03",
+    "version":  "7.04",
     "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge.exe",
-    "sha256":  "d9695e513f19d047365cede1a3449f3201af2fd1237a32bae6e5b614ff1e25aa",
-    "size_bytes":  56607084,
+    "sha256":  "f4d705dc95bae94ccd4174a1042e79713d9c6ccb8d5b4e74eb625c71fc575c27",
+    "size_bytes":  56605697,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Adds sidebar Telegram support links below Settings, cleans the About/support text, and keeps the v7.02 reply-command and updater fixes.",
-    "released":  "2026-06-02T08:20:18Z"
+    "notes":  "Restart verification update for v7.03. No trading logic changes; use this to confirm update notification and automatic restart after applying an update.",
+    "released":  "2026-06-02T08:35:59Z"
 }
