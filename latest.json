@@ -1,10 +1,10 @@
 ﻿{
     "version":  "7.13",
     "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.13.exe",
-    "sha256":  "8cb8445fd493cae0fe4ebcbe6579918f887a76195f543a5f9025a09afc198741",
-    "size_bytes":  46905169,
+    "sha256":  "8cddb35824f0548cfa1b9aa000fe42d92a37bc8acbffed1f887219951a0a2d59",
+    "size_bytes":  46903384,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Fixes broker-suffixed symbols like BTCUSDc by normalizing to the base symbol before EA suffix mapping. Adds profile-only support for CRT/ICT TP-1@ style formats, cleans raw SL/TP labels before EA parsing, and serves heartbeat-detected per-client broker suffixes consistently.",
-    "released":  "2026-06-08T10:40:00Z"
+    "notes":  "Fixes broker-suffixed symbols like BTCUSDc by normalizing to the base symbol before EA suffix mapping. Adds profile-only support for CRT/ICT TP-1@ style formats, cleans raw SL/TP labels before EA parsing, serves heartbeat-detected per-client broker suffixes consistently, and uses the @main update feed to avoid stale CDN manifests.",
+    "released":  "2026-06-08T10:48:00Z"
 }
