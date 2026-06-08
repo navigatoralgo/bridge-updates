@@ -1,10 +1,10 @@
-{
-  "version": "7.12",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.12.exe",
-  "sha256": "44fc3f3c495b30277b358de30e110aa9838abd2cff303dfe1918dcb1d37aa45a",
-  "size_bytes": 56609570,
-  "mandatory": false,
-  "min_version": "6.0.0",
-  "notes": "Fixes Telegram group fetch database locks by closing Telethon session handles explicitly and retrying short lock races. Update helper runs hidden after UAC. Future update checks use the stable jsDelivr latest.json URL to avoid branch-cache delays.",
-  "released": "2026-06-02T11:04:45Z"
+﻿{
+    "version":  "7.13",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.13.exe",
+    "sha256":  "8cb8445fd493cae0fe4ebcbe6579918f887a76195f543a5f9025a09afc198741",
+    "size_bytes":  46905169,
+    "mandatory":  false,
+    "min_version":  "6.0.0",
+    "notes":  "Fixes broker-suffixed symbols like BTCUSDc by normalizing to the base symbol before EA suffix mapping. Adds profile-only support for CRT/ICT TP-1@ style formats, cleans raw SL/TP labels before EA parsing, and serves heartbeat-detected per-client broker suffixes consistently.",
+    "released":  "2026-06-08T10:40:00Z"
 }
