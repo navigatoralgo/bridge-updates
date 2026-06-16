@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "7.15",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.15.exe",
-    "sha256":  "de5332491911fb6e2c9a35a822c053ec7205d0d3fefcda781cbc7b3b25ddcdb0",
-    "size_bytes":  46904484,
+    "version":  "7.16",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.16.exe",
+    "sha256":  "98e1436e81c2ff5d192cfaad67e57b27a4e489f7e49353dc158dadef7c214c55",
+    "size_bytes":  46906152,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Fixes broker-suffixed symbols like BTCUSDc by normalizing to the base symbol before EA suffix mapping. Adds profile-only support for CRT/ICT TP-1@ style formats, cleans raw SL/TP labels before EA parsing, serves heartbeat-detected per-client broker suffixes consistently, and switches update checks to the GitHub raw manifest to avoid stale CDN manifests.",
-    "released":  "2026-06-08T11:03:00Z"
+    "notes":  "Fixes Bridge-to-EA delivery for provider formats that Bridge parses but the EA raw parser cannot, including aliased symbols such as USOIL -> USOUSD and CRT/ICT SL@ / TP-1@ styles. Bridge now sends cleaned EA-friendly raw text with the parsed symbol, entry, SL, TP, suffix, and ref. Routing suffix detection also explains multiple connected MT5 accounts and their per-account suffixes.",
+    "released":  "2026-06-16T07:58:00Z"
 }
