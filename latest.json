@@ -1,10 +1,10 @@
 {
-  "version": "7.23",
-  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.23/NTS_Bridge_7.23.exe",
-  "sha256": "506f54f9f5a7f59844443cff0fa1fc85810f506e32f12904065ae6a4fcf2794b",
-  "size_bytes": 59703799,
+  "version": "7.24",
+  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.24/NTS_Bridge_7.24.exe",
+  "sha256": "f8b60117dc7f064e1b48adb2f0afda8bf1ac7ee8e748bfdd3ff3087d81978662",
+  "size_bytes": 59707547,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Fixes multi-MT5 account routing visibility so recently seen demo/live accounts remain selectable. Improves broker suffix auto-detect for mixed symbol lists and applies configured/auto suffixes before direct symbol matches, so accounts using symbols like AUDUSD+ do not fall back to AUDUSD.",
-  "released": "2026-06-16T11:55:15Z"
+  "notes": "Hotfixes Telegram MTProto login after update, applies config changes live so Duplicate filter toggles immediately affect active listeners, makes the Duplicate filter switch save instantly, and fixes stale v7.22 labels on the start/about screens.",
+  "released": "2026-06-16T19:38:46Z"
 }
