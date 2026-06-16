@@ -1,11 +1,11 @@
 ﻿{
-    "version":  "7.19",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.19.exe",
-    "sha256":  "49d2288546ddac5467bb2b5ee606a1d544ed6a2f07762b539d242f141f5ec9a6",
-    "size_bytes":  46908943,
+    "version":  "7.20",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.20.exe",
+    "sha256":  "1ee3e5b6f2d1e4f17d5382fcf1179afe10d678b497f5525199bc5265ce8c8a0b",
+    "size_bytes":  46908919,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Adds a direct RESTART button to the sidebar update notice so staged updates can be applied without going to Settings. Bridge now checks for updates every 10 minutes by default and the UI quietly refreshes update status in the background. Keeps the v7.18 format-profile fix where empty Channel IDs apply to all monitored chats.",
-    "released":  "2026-06-16T05:45:33Z"
+    "notes":  "Fixes Format Profile chaining. If an earlier global profile has no matching rules, Bridge now continues to the next profile instead of stopping. This fixes formats like SL@ / TP-1@ / TP-2@ when another global profile exists above it. Includes the v7.19 sidebar RESTART update button and 10-minute update checks.",
+    "released":  "2026-06-16T05:50:19Z"
 }
 
