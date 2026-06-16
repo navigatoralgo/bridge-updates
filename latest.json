@@ -1,10 +1,11 @@
 ﻿{
-    "version":  "7.17",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.17.exe",
-    "sha256":  "dd1f1cb61ac98f2338ec72de96afbd52f32911eb4a6394930d1b46494ee3a9d6",
-    "size_bytes":  46908490,
+    "version":  "7.18",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.18.exe",
+    "sha256":  "18211b275c1080808dceab4f04eaae08213cbefee3471192f204a50a77335ec5",
+    "size_bytes":  46908333,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Adds per-account broker symbol resolution before sending signals to MT5. If a provider sends USOIL but the connected account exposes USOUSD, XTIUSD, or another reported oil symbol, Bridge now sends the exact MT5 Market Watch symbol in both JSON and cleaned raw text. TP-1@ / SL@ style signals still require an assigned Format Profile by design.",
-    "released":  "2026-06-16T10:07:00Z"
+    "notes":  "Format Profiles with empty Channel IDs now apply to all monitored chats instead of silently doing nothing. This fixes profile-only formats such as SL@, TP-1@, and TP-2@ when the profile is enabled but no per-channel IDs are entered. The UI now shows this scope as all chats.",
+    "released":  "2026-06-16T05:33:48Z"
 }
+
