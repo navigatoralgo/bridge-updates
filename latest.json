@@ -1,11 +1,10 @@
-﻿{
-    "version":  "7.21",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.21.exe",
-    "sha256":  "de75e20d7866201d754aad5e7658521f041ee015b36b1bd62a8e24ffca7b7e5e",
-    "size_bytes":  46909262,
-    "mandatory":  false,
-    "min_version":  "6.0.0",
-    "notes":  "Fixes Format Profile enable/disable behavior in the WebView app. Profile toggles now auto-save and live-reload the running Telethon, Telegram Bot, and Discord listeners immediately, so turning a profile OFF really stops profile-only formats like SL@ / TP-1@ / TP-2@ without restarting Bridge.",
-    "released":  "2026-06-16T06:01:43Z"
+{
+  "version": "7.23",
+  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.23/NTS_Bridge_7.23.exe",
+  "sha256": "506f54f9f5a7f59844443cff0fa1fc85810f506e32f12904065ae6a4fcf2794b",
+  "size_bytes": 59703799,
+  "mandatory": false,
+  "min_version": "6.0.0",
+  "notes": "Fixes multi-MT5 account routing visibility so recently seen demo/live accounts remain selectable. Improves broker suffix auto-detect for mixed symbol lists and applies configured/auto suffixes before direct symbol matches, so accounts using symbols like AUDUSD+ do not fall back to AUDUSD.",
+  "released": "2026-06-16T11:55:15Z"
 }
-
