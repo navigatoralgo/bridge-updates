@@ -1,11 +1,11 @@
 ﻿{
-    "version":  "7.20",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.20.exe",
-    "sha256":  "1ee3e5b6f2d1e4f17d5382fcf1179afe10d678b497f5525199bc5265ce8c8a0b",
-    "size_bytes":  46908919,
+    "version":  "7.21",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.21.exe",
+    "sha256":  "de75e20d7866201d754aad5e7658521f041ee015b36b1bd62a8e24ffca7b7e5e",
+    "size_bytes":  46909262,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Fixes Format Profile chaining. If an earlier global profile has no matching rules, Bridge now continues to the next profile instead of stopping. This fixes formats like SL@ / TP-1@ / TP-2@ when another global profile exists above it. Includes the v7.19 sidebar RESTART update button and 10-minute update checks.",
-    "released":  "2026-06-16T05:50:19Z"
+    "notes":  "Fixes Format Profile enable/disable behavior in the WebView app. Profile toggles now auto-save and live-reload the running Telethon, Telegram Bot, and Discord listeners immediately, so turning a profile OFF really stops profile-only formats like SL@ / TP-1@ / TP-2@ without restarting Bridge.",
+    "released":  "2026-06-16T06:01:43Z"
 }
 
