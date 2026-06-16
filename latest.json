@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "7.16",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.16.exe",
-    "sha256":  "98e1436e81c2ff5d192cfaad67e57b27a4e489f7e49353dc158dadef7c214c55",
-    "size_bytes":  46906152,
+    "version":  "7.17",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.17.exe",
+    "sha256":  "dd1f1cb61ac98f2338ec72de96afbd52f32911eb4a6394930d1b46494ee3a9d6",
+    "size_bytes":  46908490,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Fixes Bridge-to-EA delivery for provider formats that Bridge parses but the EA raw parser cannot, including aliased symbols such as USOIL -> USOUSD and CRT/ICT SL@ / TP-1@ styles. Bridge now sends cleaned EA-friendly raw text with the parsed symbol, entry, SL, TP, suffix, and ref. Routing suffix detection also explains multiple connected MT5 accounts and their per-account suffixes.",
-    "released":  "2026-06-16T07:58:00Z"
+    "notes":  "Adds per-account broker symbol resolution before sending signals to MT5. If a provider sends USOIL but the connected account exposes USOUSD, XTIUSD, or another reported oil symbol, Bridge now sends the exact MT5 Market Watch symbol in both JSON and cleaned raw text. TP-1@ / SL@ style signals still require an assigned Format Profile by design.",
+    "released":  "2026-06-16T10:07:00Z"
 }
