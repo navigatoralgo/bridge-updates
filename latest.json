@@ -1,11 +1,11 @@
 ﻿{
-    "version":  "7.18",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.18.exe",
-    "sha256":  "18211b275c1080808dceab4f04eaae08213cbefee3471192f204a50a77335ec5",
-    "size_bytes":  46908333,
+    "version":  "7.19",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.19.exe",
+    "sha256":  "49d2288546ddac5467bb2b5ee606a1d544ed6a2f07762b539d242f141f5ec9a6",
+    "size_bytes":  46908943,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Format Profiles with empty Channel IDs now apply to all monitored chats instead of silently doing nothing. This fixes profile-only formats such as SL@, TP-1@, and TP-2@ when the profile is enabled but no per-channel IDs are entered. The UI now shows this scope as all chats.",
-    "released":  "2026-06-16T05:33:48Z"
+    "notes":  "Adds a direct RESTART button to the sidebar update notice so staged updates can be applied without going to Settings. Bridge now checks for updates every 10 minutes by default and the UI quietly refreshes update status in the background. Keeps the v7.18 format-profile fix where empty Channel IDs apply to all monitored chats.",
+    "released":  "2026-06-16T05:45:33Z"
 }
 
