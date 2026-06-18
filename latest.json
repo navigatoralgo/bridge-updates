@@ -1,10 +1,3 @@
-{
-  "version": "7.27",
-  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.27/NTS_Bridge_7.27.exe",
-  "sha256": "2c7a519d797fb48a4cdd936b8c21b6e37c9630165d60d66127e539f4dcae8b29",
-  "size_bytes": 59711527,
-  "mandatory": false,
-  "min_version": "6.0.0",
-  "notes": "Emergency Telegram login/session hotfix. Stops Bridge from automatically deleting Telegram MTProto session files during login/auth checks or credential edits. Reset is now manual-only, reset/login first releases the Telethon listener and retries session-file deletion to avoid Windows file-lock errors, and the UI now shows preserved-session warnings instead of the old reset error. Keeps the v7.26 broker-symbol compatibility, XAUAUDm handling, safer XAUUSD quote selection, audit/test-sender improvements, and History tab Clear Expired button.",
-  "released": "2026-06-18T18:29:14Z"
-}
+"url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.27/NTS_Bridge_7.27.exe",
+"sha256": "2c7a519d797fb48a4cdd936b8c21b6e37c9630165d60d66127e539f4dcae8b29",
+"size_bytes": 59711527
