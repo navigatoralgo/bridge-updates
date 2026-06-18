@@ -1,10 +1,10 @@
 {
   "version": "7.27",
-  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.26/NTS_Bridge_7.27.exe",
-  "sha256": "ad97bb01aa2271031a71b3eaf014f1ff41e575e869e2b1b36a189ce4d6756839",
-  "size_bytes": 59715231,
+  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.27/NTS_Bridge_7.27.exe",
+  "sha256": "2c7a519d797fb48a4cdd936b8c21b6e37c9630165d60d66127e539f4dcae8b29",
+  "size_bytes": 59711527,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Recommended broker-symbol compatibility update. Adds explicit metal-cross broker symbol handling such as XAUAUDm while preserving existing suffix support like XAUUSDm, EURUSDm, .r, .pro, and +. Tightens MT5 quote selection so XAUUSD does not accidentally use XAUAUDm, improves audit/test-sender messaging for off-market broker rejections, and adds a safe History tab Clear Expired button that removes only expired signal rows while preserving routed/delivered/reply-command context.",
-  "released": "2026-06-18T17:57:49Z"
+  "notes": "Emergency Telegram login/session hotfix. Stops Bridge from automatically deleting Telegram MTProto session files during login/auth checks or credential edits. Reset is now manual-only, reset/login first releases the Telethon listener and retries session-file deletion to avoid Windows file-lock errors, and the UI now shows preserved-session warnings instead of the old reset error. Keeps the v7.26 broker-symbol compatibility, XAUAUDm handling, safer XAUUSD quote selection, audit/test-sender improvements, and History tab Clear Expired button.",
+  "released": "2026-06-18T18:29:14Z"
 }
