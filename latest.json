@@ -1,11 +1,10 @@
-﻿{
-    "version":  "7.25",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.25.exe",
-    "sha256":  "51b2b887822623f0176a99a0002717adc25a8dbbb962901765ce3b5ad31b0631",
-    "size_bytes":  46858073,
-    "mandatory":  false,
-    "min_version":  "6.0.0",
-    "notes":  "Improves Telegram signal parsing for hashtag symbols, compact Sl@/Tp-1@ provider formats, superscript TP labels, noisy SL/TP separators, TP lists, entry ranges, index/oil broker aliases, and explicit market-now openers such as Buy EURUSD Now while keeping commentary false positives rejected.",
-    "released":  "2026-06-18T15:38:15Z"
+{
+  "version": "7.26",
+  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.26/NTS_Bridge_7.26.exe",
+  "sha256": "ad97bb01aa2271031a71b3eaf014f1ff41e575e869e2b1b36a189ce4d6756839",
+  "size_bytes": 59715231,
+  "mandatory": false,
+  "min_version": "6.0.0",
+  "notes": "Recommended broker-symbol compatibility update. Adds explicit metal-cross broker symbol handling such as XAUAUDm while preserving existing suffix support like XAUUSDm, EURUSDm, .r, .pro, and +. Tightens MT5 quote selection so XAUUSD does not accidentally use XAUAUDm, improves audit/test-sender messaging for off-market broker rejections, and adds a safe History tab Clear Expired button that removes only expired signal rows while preserving routed/delivered/reply-command context.",
+  "released": "2026-06-18T17:57:49Z"
 }
-
