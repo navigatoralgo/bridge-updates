@@ -1,10 +1,11 @@
-{
-  "version": "7.24",
-  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.24/NTS_Bridge_7.24.exe",
-  "sha256": "f8b60117dc7f064e1b48adb2f0afda8bf1ac7ee8e748bfdd3ff3087d81978662",
-  "size_bytes": 59707547,
-  "mandatory": false,
-  "min_version": "6.0.0",
-  "notes": "Hotfixes Telegram MTProto login after update, applies config changes live so Duplicate filter toggles immediately affect active listeners, makes the Duplicate filter switch save instantly, and fixes stale v7.22 labels on the start/about screens.",
-  "released": "2026-06-16T19:38:46Z"
+﻿{
+    "version":  "7.25",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.25.exe",
+    "sha256":  "51b2b887822623f0176a99a0002717adc25a8dbbb962901765ce3b5ad31b0631",
+    "size_bytes":  46858073,
+    "mandatory":  false,
+    "min_version":  "6.0.0",
+    "notes":  "Improves Telegram signal parsing for hashtag symbols, compact Sl@/Tp-1@ provider formats, superscript TP labels, noisy SL/TP separators, TP lists, entry ranges, index/oil broker aliases, and explicit market-now openers such as Buy EURUSD Now while keeping commentary false positives rejected.",
+    "released":  "2026-06-18T15:38:15Z"
 }
+
