@@ -1,10 +1,10 @@
 {
-  "version": "7.27",
-  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.27/NTS_Bridge_7.28.exe",
-  "sha256": "2c7a519d797fb48a4cdd936b8c21b6e37c9630165d60d66127e539f4dcae8b29",
-  "size_bytes": 59711527,
+  "version": "7.28",
+  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.28/NTS_Bridge_7.28.exe",
+  "sha256": "0fa711157355d3e88160694925fc191d178166e3dba358883d63a105616d5c50",
+  "size_bytes": 59717665,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Emergency Telegram login/session hotfix. Stops Bridge from automatically deleting Telegram MTProto session files during login/auth checks or credential edits. Reset is now manual-only, reset/login first releases the Telethon listener and retries session-file deletion to avoid Windows file-lock errors. Keeps v7.26 broker-symbol compatibility and History tab Clear Expired.",
-  "released": "2026-06-18T18:29:14Z"
+  "notes": "Signal parser and Telegram session compatibility update. Adds bare opener formats like sell gold, buy gold, buy eurusd, and EURUSD BUY; fixes SL@/TP@ parsing so SL prices are not mistaken as entry prices; preserves existing Telegram MTProto sessions including older/newer session schemas; improves Reconnect Telegram and Reset handling; keeps v7.26 broker-symbol compatibility and Clear Expired history cleanup.",
+  "released": "2026-06-18T19:45:00Z"
 }
