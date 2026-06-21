@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "version": "2026.06.21.3",
-  "released": "2026-06-21T17:05:00Z",
-  "notes": "Adds provider phrase support for GO LONG, CUTLOSS, and PROFIT A/B/C labels, while keeping previous broker-suffix aliases and LONG/STOP/TARGET rewrites.",
+  "version": "2026.06.21.4",
+  "released": "2026-06-21T17:12:00Z",
+  "notes": "Adds provider phrase support for ACCUMULATE, RISK BELOW, and repeated SCALE OUT targets, while keeping previous broker-suffix aliases and provider label rewrites.",
   "aliases": {
     "BTCUSDM": "BTCUSD",
     "BTCUSDC": "BTCUSD",
@@ -70,7 +70,10 @@
         { "from": "CUTLOSS", "to": "SL", "context": "line_start" },
         { "from": "PROFIT A", "to": "TP1", "context": "line_start" },
         { "from": "PROFIT B", "to": "TP2", "context": "line_start" },
-        { "from": "PROFIT C", "to": "TP3", "context": "line_start" }
+        { "from": "PROFIT C", "to": "TP3", "context": "line_start" },
+        { "from": "ACCUMULATE", "to": "BUY", "context": "anywhere" },
+        { "from": "RISK BELOW", "to": "SL", "context": "line_start" },
+        { "from": "SCALE OUT", "to": "TP", "context": "line_start" }
       ]
     }
   },
@@ -82,14 +85,16 @@
       { "text": "SELL USOILc SL 74.20 TP 73.40", "direction": "SELL", "symbol": "USOIL", "signal_type": "MARKET" },
       { "text": "XAUUSD SELL\nSL@ 4250\nTP-1@ 4230\nTP-2@ 4215", "direction": "SELL", "symbol": "XAUUSD", "signal_type": "MARKET" },
       { "text": "BTCUSD\nLONG NOW\nSTOP: 65000\nTARGET ONE: 65500\nTARGET TWO: 66000\nTARGET THREE: 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" },
-      { "text": "BTCUSD\nGO LONG\nCUTLOSS 65000\nPROFIT A 65500\nPROFIT B 66000\nPROFIT C 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" }
+      { "text": "BTCUSD\nGO LONG\nCUTLOSS 65000\nPROFIT A 65500\nPROFIT B 66000\nPROFIT C 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" },
+      { "text": "BTCUSD\nACCUMULATE\nRISK BELOW 64150\nSCALE OUT 64480\nSCALE OUT 64620\nSCALE OUT 64800", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" }
     ],
     "negative": [
       { "text": "bitcoin analysis possible buy later" },
       { "text": "gold sell running 10 pips" },
       { "text": "VIP monthly performance BTCUSD was great" },
       { "text": "long term bitcoin target one day maybe higher" },
-      { "text": "education: when to go long bitcoin for profit a few months later" }
+      { "text": "education: when to go long bitcoin for profit a few months later" },
+      { "text": "accumulate bitcoin slowly and scale out later, risk below depends on setup" }
     ]
   }
 }
