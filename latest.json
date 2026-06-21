@@ -1,11 +1,11 @@
-{
-    "version":  "7.37",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.37.exe",
-    "sha256":  "6298a301a827c581e5f9340ce2433776e5a54930b7da8b38cc503984bb0ad020",
-    "size_bytes":  59743727,
+﻿{
+    "version":  "7.38",
+    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.38.exe",
+    "sha256":  "727bb6a116169dfb807a96e4f9eab2e34a9d7dfbe548bdeed1ac1400db7bf183",
+    "size_bytes":  59743640,
     "mandatory":  false,
     "min_version":  "6.0.0",
-    "notes":  "Full Bridge update with safe remote signal-format packs. Adds JSON-only format patch support with validation, self-tests, cached last-good rollback, live runtime reload, and a Formats-page status/check/rollback UI. Keeps v7.36 EA/Bridge compatibility fixes.",
-    "released":  "2026-06-21T10:14:36Z"
+    "notes":  "Bridge format-pack scheduler hotfix. Remote format-pack auto-update now reacts quickly to interval changes made in the UI instead of waiting for the old long sleep interval. Keeps v7.37 remote format-pack support and compatibility fixes.",
+    "released":  "2026-06-21T11:55:00Z"
 }
 
