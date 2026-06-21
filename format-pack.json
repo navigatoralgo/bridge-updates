@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "version": "2026.06.21.2",
-  "released": "2026-06-21T16:58:00Z",
-  "notes": "Adds conservative line-start rewrites for provider formats using LONG/STOP/TARGET ONE/TWO/THREE labels, while keeping broker-suffix aliases and previous SL/TP label rewrites.",
+  "version": "2026.06.21.3",
+  "released": "2026-06-21T17:05:00Z",
+  "notes": "Adds provider phrase support for GO LONG, CUTLOSS, and PROFIT A/B/C labels, while keeping previous broker-suffix aliases and LONG/STOP/TARGET rewrites.",
   "aliases": {
     "BTCUSDM": "BTCUSD",
     "BTCUSDC": "BTCUSD",
@@ -65,7 +65,12 @@
         { "from": "STOP", "to": "SL", "context": "line_start" },
         { "from": "TARGET ONE", "to": "TP1", "context": "line_start" },
         { "from": "TARGET TWO", "to": "TP2", "context": "line_start" },
-        { "from": "TARGET THREE", "to": "TP3", "context": "line_start" }
+        { "from": "TARGET THREE", "to": "TP3", "context": "line_start" },
+        { "from": "GO LONG", "to": "BUY", "context": "anywhere" },
+        { "from": "CUTLOSS", "to": "SL", "context": "line_start" },
+        { "from": "PROFIT A", "to": "TP1", "context": "line_start" },
+        { "from": "PROFIT B", "to": "TP2", "context": "line_start" },
+        { "from": "PROFIT C", "to": "TP3", "context": "line_start" }
       ]
     }
   },
@@ -76,13 +81,15 @@
       { "text": "buy ethereum now", "direction": "BUY", "symbol": "ETHUSD", "signal_type": "MARKET" },
       { "text": "SELL USOILc SL 74.20 TP 73.40", "direction": "SELL", "symbol": "USOIL", "signal_type": "MARKET" },
       { "text": "XAUUSD SELL\nSL@ 4250\nTP-1@ 4230\nTP-2@ 4215", "direction": "SELL", "symbol": "XAUUSD", "signal_type": "MARKET" },
-      { "text": "BTCUSD\nLONG NOW\nSTOP: 65000\nTARGET ONE: 65500\nTARGET TWO: 66000\nTARGET THREE: 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" }
+      { "text": "BTCUSD\nLONG NOW\nSTOP: 65000\nTARGET ONE: 65500\nTARGET TWO: 66000\nTARGET THREE: 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" },
+      { "text": "BTCUSD\nGO LONG\nCUTLOSS 65000\nPROFIT A 65500\nPROFIT B 66000\nPROFIT C 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" }
     ],
     "negative": [
       { "text": "bitcoin analysis possible buy later" },
       { "text": "gold sell running 10 pips" },
       { "text": "VIP monthly performance BTCUSD was great" },
-      { "text": "long term bitcoin target one day maybe higher" }
+      { "text": "long term bitcoin target one day maybe higher" },
+      { "text": "education: when to go long bitcoin for profit a few months later" }
     ]
   }
 }
