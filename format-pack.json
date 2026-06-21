@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "version": "2026.06.21.1",
-  "released": "2026-06-21T15:45:00Z",
-  "notes": "Initial remote format pack. Adds safe broker-suffix aliases for common crypto, gold, silver, oil, and index labels, plus conservative SL/TP label rewrites used by Telegram signal providers.",
+  "version": "2026.06.21.2",
+  "released": "2026-06-21T16:58:00Z",
+  "notes": "Adds conservative line-start rewrites for provider formats using LONG/STOP/TARGET ONE/TWO/THREE labels, while keeping broker-suffix aliases and previous SL/TP label rewrites.",
   "aliases": {
     "BTCUSDM": "BTCUSD",
     "BTCUSDC": "BTCUSD",
@@ -60,7 +60,12 @@
         { "from": "TP-3@", "to": "TP3", "context": "line_start" },
         { "from": "TP1@", "to": "TP1", "context": "line_start" },
         { "from": "TP2@", "to": "TP2", "context": "line_start" },
-        { "from": "TP3@", "to": "TP3", "context": "line_start" }
+        { "from": "TP3@", "to": "TP3", "context": "line_start" },
+        { "from": "LONG", "to": "BUY", "context": "line_start" },
+        { "from": "STOP", "to": "SL", "context": "line_start" },
+        { "from": "TARGET ONE", "to": "TP1", "context": "line_start" },
+        { "from": "TARGET TWO", "to": "TP2", "context": "line_start" },
+        { "from": "TARGET THREE", "to": "TP3", "context": "line_start" }
       ]
     }
   },
@@ -70,12 +75,14 @@
       { "text": "sell BTCUSDc now", "direction": "SELL", "symbol": "BTCUSD", "signal_type": "MARKET" },
       { "text": "buy ethereum now", "direction": "BUY", "symbol": "ETHUSD", "signal_type": "MARKET" },
       { "text": "SELL USOILc SL 74.20 TP 73.40", "direction": "SELL", "symbol": "USOIL", "signal_type": "MARKET" },
-      { "text": "XAUUSD SELL\nSL@ 4250\nTP-1@ 4230\nTP-2@ 4215", "direction": "SELL", "symbol": "XAUUSD", "signal_type": "MARKET" }
+      { "text": "XAUUSD SELL\nSL@ 4250\nTP-1@ 4230\nTP-2@ 4215", "direction": "SELL", "symbol": "XAUUSD", "signal_type": "MARKET" },
+      { "text": "BTCUSD\nLONG NOW\nSTOP: 65000\nTARGET ONE: 65500\nTARGET TWO: 66000\nTARGET THREE: 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" }
     ],
     "negative": [
       { "text": "bitcoin analysis possible buy later" },
       { "text": "gold sell running 10 pips" },
-      { "text": "VIP monthly performance BTCUSD was great" }
+      { "text": "VIP monthly performance BTCUSD was great" },
+      { "text": "long term bitcoin target one day maybe higher" }
     ]
   }
 }
