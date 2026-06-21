@@ -1,11 +1,10 @@
 {
-    "version":  "7.38",
-    "url":  "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.39.exe",
-    "sha256":  "727bb6a116169dfb807a96e4f9eab2e34a9d7dfbe548bdeed1ac1400db7bf183",
-    "size_bytes":  59743640,
-    "mandatory":  false,
-    "min_version":  "6.0.0",
-    "notes":  "Bridge format-pack scheduler hotfix. Remote format-pack auto-update now reacts quickly to interval changes made in the UI instead of waiting for the old long sleep interval. Keeps v7.37 remote format-pack support and compatibility fixes.",
-    "released":  "2026-06-21T11:55:00Z"
+  "version": "7.40",
+  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.40.exe",
+  "sha256": "d4b32886463aa3e7f8ae1dcc427bdbdedd859b485bc290f638b4172cc78553fb",
+  "size_bytes": 59744742,
+  "mandatory": true,
+  "min_version": "6.0.0",
+  "notes": "Emergency Windows permissions hotfix. Fixes startup crashes when C:\\nts_bridge log files are blocked, grants normal users write access to the Bridge data folder in the installer, and falls back to AppData if the configured data folder is not writable. Keeps v7.38 format-pack support and parser compatibility.",
+  "released": "2026-06-21T21:10:00+05:30"
 }
-
