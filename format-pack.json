@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "version": "2026.06.21.6",
-  "released": "2026-06-21T17:50:00Z",
-  "notes": "Adds narrow BULLISH PLAY / DEFENSE / OBJECTIVE A-B-C provider label support. Keeps previous safe broker-suffix aliases and provider label rewrites.",
+  "version": "2026.06.21.7",
+  "released": "2026-06-21T18:00:00Z",
+  "notes": "Removes the temporary BULLISH PLAY / DEFENSE / OBJECTIVE A-B-C test rules to verify remote format-pack removals auto-apply. Keeps previous safe broker-suffix aliases and provider label rewrites.",
   "aliases": {
     "BTCUSDM": "BTCUSD",
     "BTCUSDC": "BTCUSD",
@@ -72,12 +72,7 @@
         { "from": "PROFIT B", "to": "TP2", "context": "line_start" },
         { "from": "PROFIT C", "to": "TP3", "context": "line_start" },
         { "from": "RISK BELOW", "to": "SL", "context": "line_start" },
-        { "from": "SCALE OUT", "to": "TP", "context": "line_start" },
-        { "from": "BULLISH PLAY", "to": "BUY", "context": "line_start" },
-        { "from": "DEFENSE", "to": "SL", "context": "line_start" },
-        { "from": "OBJECTIVE A", "to": "TP1", "context": "line_start" },
-        { "from": "OBJECTIVE B", "to": "TP2", "context": "line_start" },
-        { "from": "OBJECTIVE C", "to": "TP3", "context": "line_start" }
+        { "from": "SCALE OUT", "to": "TP", "context": "line_start" }
       ]
     }
   },
@@ -89,8 +84,7 @@
       { "text": "SELL USOILc SL 74.20 TP 73.40", "direction": "SELL", "symbol": "USOIL", "signal_type": "MARKET" },
       { "text": "XAUUSD SELL\nSL@ 4250\nTP-1@ 4230\nTP-2@ 4215", "direction": "SELL", "symbol": "XAUUSD", "signal_type": "MARKET" },
       { "text": "BTCUSD\nLONG NOW\nSTOP: 65000\nTARGET ONE: 65500\nTARGET TWO: 66000\nTARGET THREE: 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" },
-      { "text": "BTCUSD\nGO LONG\nCUTLOSS 65000\nPROFIT A 65500\nPROFIT B 66000\nPROFIT C 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" },
-      { "text": "BTCUSD\nBULLISH PLAY\nDEFENSE 65000\nOBJECTIVE A 65500\nOBJECTIVE B 66000\nOBJECTIVE C 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" }
+      { "text": "BTCUSD\nGO LONG\nCUTLOSS 65000\nPROFIT A 65500\nPROFIT B 66000\nPROFIT C 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" }
     ],
     "negative": [
       { "text": "bitcoin analysis possible buy later" },
