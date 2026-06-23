@@ -1,10 +1,10 @@
 {
-  "version": "7.40",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.40.exe",
-  "sha256": "d4b32886463aa3e7f8ae1dcc427bdbdedd859b485bc290f638b4172cc78553fb",
-  "size_bytes": 59744742,
-  "mandatory": true,
+  "version": "7.41",
+  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.41.exe",
+  "sha256": "48873a0f45e41057f2a65b301c72d5ded725c8b7ca2728b07606f849ad376588",
+  "size_bytes": 59750885,
+  "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Emergency Windows permissions hotfix. Fixes startup crashes when C:\\nts_bridge log files are blocked, grants normal users write access to the Bridge data folder in the installer, and falls back to AppData if the configured data folder is not writable. Keeps v7.38 format-pack support and parser compatibility.",
-  "released": "2026-06-21T21:10:00+05:30"
+  "notes": "Bridge Prop Safe UI cleanup and stability update. Account Prop Safe headers now only show active states, reducing confusion while preserving Global, Custom, and Excluded behavior. Includes current v7.41 Bridge-side Prop Safe, format-pack, and updater stability fixes.",
+  "released": "2026-06-23T23:30:00Z"
 }
