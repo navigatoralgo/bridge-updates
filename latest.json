@@ -5,8 +5,8 @@
   "size_bytes": 59792812,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Bridge v7.44 hotfix candidate with stronger opt-in Spanish pre-filter scoring, Spanish SL label handling, and 5-digit decimal-comma forex price parsing.",
+  "notes": "Bridge v7.44 hotfix release with stronger opt-in Spanish pre-filter scoring, Spanish SL label handling, and 5-digit decimal-comma forex price parsing.",
   "released": "2026-06-30T19:59:07Z",
   "signature_algorithm": "ed25519-v1",
-  "signature": "+eanDwCWPl3kY1hFXyN1URLfWDintbbzIu12WhA0wHOUB31DgIIhMkzgGwTjKF/ApUuIZ+qDDdTgqw2qwVp6Bw=="
+  "signature": "gaBxVzxm3X1Lzvu/LjaYd4pMJ0ROfalCbzkzbS1sLr1OOuwZGsn6r/LPcWmAWFWzJkFWMYnaJ7OeUmqA0taNDw=="
 }
