@@ -1,12 +1,12 @@
 {
-  "version": "7.43",
+  "version": "7.44",
   "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.44.exe",
-  "sha256": "43259e5466e3aa952c0db3cf79de61ab3f74669de997ab6d8ca340ccc4f00eb4",
-  "size_bytes": 59792911,
+  "sha256": "786a396d7c7929c3e3d15c5768b01c7dd56b866146e942f33699aa1faa799a89",
+  "size_bytes": 59792812,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Bridge v7.43 release build with opt-in Spanish signal parsing, pending queue delivery, safer command targeting, reconnect stale-signal replay protection, OCR/Telegram UI polish, and profile-ready EA companion updates.",
-  "released": "2026-06-30T18:56:34Z",
+  "notes": "Bridge v7.44 hotfix candidate with stronger opt-in Spanish pre-filter scoring, Spanish SL label handling, and 5-digit decimal-comma forex price parsing.",
+  "released": "2026-06-30T19:59:07Z",
   "signature_algorithm": "ed25519-v1",
-  "signature": "o7aAdk2AygNuUATkf6otxKsg80jT6ax04srhdmtf2rwgtrpmCVOkW08ckNdpb0COndJQVegNYvMr11M4qOQfBw=="
+  "signature": "+eanDwCWPl3kY1hFXyN1URLfWDintbbzIu12WhA0wHOUB31DgIIhMkzgGwTjKF/ApUuIZ+qDDdTgqw2qwVp6Bw=="
 }
