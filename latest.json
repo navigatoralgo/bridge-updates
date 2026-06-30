@@ -1,10 +1,12 @@
 {
-  "version": "7.41",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.41.exe",
-  "sha256": "48873a0f45e41057f2a65b301c72d5ded725c8b7ca2728b07606f849ad376588",
-  "size_bytes": 59750885,
+  "version": "7.43",
+  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.43.exe",
+  "sha256": "43259e5466e3aa952c0db3cf79de61ab3f74669de997ab6d8ca340ccc4f00eb4",
+  "size_bytes": 59792911,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Bridge Prop Safe UI cleanup and stability update. Account Prop Safe headers now only show active states, reducing confusion while preserving Global, Custom, and Excluded behavior. Includes current v7.41 Bridge-side Prop Safe, format-pack, and updater stability fixes.",
-  "released": "2026-06-23T23:30:00Z"
+  "notes": "Bridge v7.43 release build with opt-in Spanish signal parsing, pending queue delivery, safer command targeting, reconnect stale-signal replay protection, OCR/Telegram UI polish, and profile-ready EA companion updates.",
+  "released": "2026-06-30T18:56:34Z",
+  "signature_algorithm": "ed25519-v1",
+  "signature": "o7aAdk2AygNuUATkf6otxKsg80jT6ax04srhdmtf2rwgtrpmCVOkW08ckNdpb0COndJQVegNYvMr11M4qOQfBw=="
 }
