@@ -1,12 +1,12 @@
 {
-  "version": "7.44",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.44.exe",
-  "sha256": "786a396d7c7929c3e3d15c5768b01c7dd56b866146e942f33699aa1faa799a89",
-  "size_bytes": 59792812,
+  "version": "7.46",
+  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.46.exe",
+  "sha256": "fd96625db1723129d7942e8c366d46336e46e32f8b260d17a18879634892a7a5",
+  "size_bytes": 59802472,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Bridge v7.44 hotfix release with stronger opt-in Spanish pre-filter scoring, Spanish SL label handling, and 5-digit decimal-comma forex price parsing.",
-  "released": "2026-06-30T19:59:07Z",
+  "notes": "Bridge v7.46 queue hotfix. Improves targeted EA signal acknowledgements to prevent stale queue replay after local HTTP timeouts, keeps duplicate signal IDs from re-executing during ACK retries, and includes the latest parser/format-pack stability fixes.",
+  "released": "2026-07-03T07:12:10Z",
   "signature_algorithm": "ed25519-v1",
-  "signature": "gaBxVzxm3X1Lzvu/LjaYd4pMJ0ROfalCbzkzbS1sLr1OOuwZGsn6r/LPcWmAWFWzJkFWMYnaJ7OeUmqA0taNDw=="
+  "signature": "wB2br6IqUU7kD80Js9U9ZKUkR+s4lGZJdts7ntzxQKII1TxyVMcbebuGJKq4AE6a1jen4KI0lcNhxwtCIHj7Bw=="
 }
