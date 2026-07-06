@@ -1,12 +1,12 @@
 {
-  "version": "7.46",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.46.exe",
-  "sha256": "fd96625db1723129d7942e8c366d46336e46e32f8b260d17a18879634892a7a5",
-  "size_bytes": 59802472,
+  "version": "7.47",
+  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.47.exe",
+  "sha256": "849bedaa865d50c96776b27d1a919059c7cc4685e57767cdd38d837664446557",
+  "size_bytes": 59816542,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Bridge v7.46 queue hotfix. Improves targeted EA signal acknowledgements to prevent stale queue replay after local HTTP timeouts, keeps duplicate signal IDs from re-executing during ACK retries, and includes the latest parser/format-pack stability fixes.",
-  "released": "2026-07-03T07:12:10Z",
+  "notes": "Bridge v7.47 stability update. Improves reply-command targeting for multi-account setups, fixes bare SL/TP reply updates for pending orders, improves close/partial-close command safety, and keeps the latest parser/format-pack hardening.",
+  "released": "2026-07-06T15:34:15Z",
   "signature_algorithm": "ed25519-v1",
-  "signature": "wB2br6IqUU7kD80Js9U9ZKUkR+s4lGZJdts7ntzxQKII1TxyVMcbebuGJKq4AE6a1jen4KI0lcNhxwtCIHj7Bw=="
+  "signature": "9wa3H+1C3EUvUq7CxlZoqQPHARZVJ5uSQdhM6v0IwCbnMWAiUy2SNF3UWvZn8jPqWACGl4s1IIjnCvG0GDfSCw=="
 }
