@@ -1,12 +1,12 @@
 {
-  "version": "7.48",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.48.exe",
-  "sha256": "83943346760bd0392a92e7a6dc9f481782f6814ec60bd85672a757b6e5cb61d8",
-  "size_bytes": 59820087,
+  "version": "7.49",
+  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.49.exe",
+  "sha256": "17a2a52143c90447ac8b4c3b0d5a14e4c97a54036979ba6a163c494e6cc258c5",
+  "size_bytes": 59821285,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Emergency Bridge v7.48 update. Fixes Reply Commands master/category OFF behavior so disabled reply commands stay blocked, keeps safe reply SL/TP modify/cancel/close handling, improves dashboard assigned-group display, and hardens Bridge health marker writes against Windows file-lock/access-denied races.",
-  "released": "2026-07-08T14:15:42Z",
+  "notes": "Emergency Bridge v7.49 parser safety update. Blocks provider result/status updates like TP 1 hit or Target 1 hit from being treated as fresh trades, converts provider direction+symbol SL/TP updates into safe MODIFY commands instead of market orders, and fixes alias entry parsing such as SELL GOLD 2000.",
+  "released": "2026-07-08T16:09:38Z",
   "signature_algorithm": "ed25519-v1",
-  "signature": "XetNwipDqC8XmSubTBPu0hwxseD9Yb+qXrhrsEU9/HzUzzMdU2BPX7O2Z+oEWYk0EEQRSiVgqiXNDJ419JkiCQ=="
+  "signature": "4jT2rgv38a4R35yWektTlJVqb6Aae4dKtQgkbsFk+JNNp/PsdNQmRCFmZqFpFEhmHJ+CRclo8kf2bTOXnTJFCw=="
 }
