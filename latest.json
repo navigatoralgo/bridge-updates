@@ -1,12 +1,12 @@
 {
-  "version": "7.49",
-  "url": "https://raw.githubusercontent.com/navigatoralgo/bridge-updates/main/NTS_Bridge_7.49.exe",
-  "sha256": "17a2a52143c90447ac8b4c3b0d5a14e4c97a54036979ba6a163c494e6cc258c5",
-  "size_bytes": 59821285,
+  "version": "7.50",
+  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.5/NTS_Bridge_7.50.exe",
+  "sha256": "9d8332892a5b65fdda68eb2ddedde40311c98ed8988db626c769039b78a2b38f",
+  "size_bytes": 59831389,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Emergency Bridge v7.49 parser safety update. Blocks provider result/status updates like TP 1 hit or Target 1 hit from being treated as fresh trades, converts provider direction+symbol SL/TP updates into safe MODIFY commands instead of market orders, and fixes alias entry parsing such as SELL GOLD 2000.",
-  "released": "2026-07-08T16:09:38Z",
+  "notes": "Bridge v7.50 safety update. Adds safer reply SL/TP handling: explicit proven replies like set TP/set SL work by default, while bare TP/SL replies stay opt-in to avoid provider-result chatter. Includes source-scoped reply proof, ticket targeting, reconnect watermarks, EA rejection visibility, and safer partial-close reply tracking.",
+  "released": "2026-07-16T11:46:09Z",
   "signature_algorithm": "ed25519-v1",
-  "signature": "4jT2rgv38a4R35yWektTlJVqb6Aae4dKtQgkbsFk+JNNp/PsdNQmRCFmZqFpFEhmHJ+CRclo8kf2bTOXnTJFCw=="
+  "signature": "DDmGpwTZtHkajOG25dFisGiFD8Bivp37dGxFvkmHAMC4tLmBdpxIj+aVwIPmHVB6yJedeW1BdvCrznQtK06gDA=="
 }
