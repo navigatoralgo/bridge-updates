@@ -1,12 +1,12 @@
 {
-  "version": "7.50",
-  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.5/NTS_Bridge_7.50.exe",
-  "sha256": "9d8332892a5b65fdda68eb2ddedde40311c98ed8988db626c769039b78a2b38f",
-  "size_bytes": 59831389,
+  "version": "7.51",
+  "url": "https://github.com/navigatoralgo/bridge-updates/releases/download/v7.51/NTS_Bridge_7.51.exe",
+  "sha256": "e1c2efbdce442894874058060d08cea09835ec3b2da485746d50c2acbc658c5b",
+  "size_bytes": 59964801,
   "mandatory": false,
   "min_version": "6.0.0",
-  "notes": "Bridge v7.50 safety update. Adds safer reply SL/TP handling: explicit proven replies like set TP/set SL work by default, while bare TP/SL replies stay opt-in to avoid provider-result chatter. Includes source-scoped reply proof, ticket targeting, reconnect watermarks, EA rejection visibility, and safer partial-close reply tracking.",
-  "released": "2026-07-16T11:46:09Z",
+  "notes": "Bridge v7.51 update. Fixes Telegram reconnect so it restarts the listener cleanly without getting stuck on an already-active login, hardens local web startup to avoid false port failures, removes the confusing Telegram Groups type filter from the login/group selection page, and keeps new TP runner/zone handling behind safe user-controlled settings.",
+  "released": "2026-08-17T01:21:17Z",
   "signature_algorithm": "ed25519-v1",
-  "signature": "DDmGpwTZtHkajOG25dFisGiFD8Bivp37dGxFvkmHAMC4tLmBdpxIj+aVwIPmHVB6yJedeW1BdvCrznQtK06gDA=="
+  "signature": "qDtf+RzNltQ68yOGN4K286lmx5LRBDvqVyTJzYlI2gbeBAc4OnO7uPunqc1RsgcGq9952LoB7v3+EjPhukfzAg=="
 }
