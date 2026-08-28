@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "version": "2026.06.21.7",
-  "released": "2026-06-21T18:00:00Z",
-  "notes": "Removes the temporary BULLISH PLAY / DEFENSE / OBJECTIVE A-B-C test rules to verify remote format-pack removals auto-apply. Keeps previous safe broker-suffix aliases and provider label rewrites.",
+  "version": "2026.08.28.8",
+  "released": "2026-08-28T00:00:00Z",
+  "notes": "Adds safe numeric label rewrites for TAKE PROFITS and RISK LEVEL while retaining the established suffix aliases and provider label rules.",
   "aliases": {
     "BTCUSDM": "BTCUSD",
     "BTCUSDC": "BTCUSD",
@@ -72,7 +72,9 @@
         { "from": "PROFIT B", "to": "TP2", "context": "line_start" },
         { "from": "PROFIT C", "to": "TP3", "context": "line_start" },
         { "from": "RISK BELOW", "to": "SL", "context": "line_start" },
-        { "from": "SCALE OUT", "to": "TP", "context": "line_start" }
+        { "from": "SCALE OUT", "to": "TP", "context": "line_start" },
+        { "from": "TAKE PROFITS", "to": "TP", "context": "followed_by_number" },
+        { "from": "RISK LEVEL", "to": "SL", "context": "followed_by_number" }
       ]
     }
   },
@@ -84,7 +86,9 @@
       { "text": "SELL USOILc SL 74.20 TP 73.40", "direction": "SELL", "symbol": "USOIL", "signal_type": "MARKET" },
       { "text": "XAUUSD SELL\nSL@ 4250\nTP-1@ 4230\nTP-2@ 4215", "direction": "SELL", "symbol": "XAUUSD", "signal_type": "MARKET" },
       { "text": "BTCUSD\nLONG NOW\nSTOP: 65000\nTARGET ONE: 65500\nTARGET TWO: 66000\nTARGET THREE: 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" },
-      { "text": "BTCUSD\nGO LONG\nCUTLOSS 65000\nPROFIT A 65500\nPROFIT B 66000\nPROFIT C 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" }
+      { "text": "BTCUSD\nGO LONG\nCUTLOSS 65000\nPROFIT A 65500\nPROFIT B 66000\nPROFIT C 66500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" },
+      { "text": "BITCOIN LONG\nPrice: 80800\nSL Loss: 80000\nTake Profits: 81600, 82500", "direction": "BUY", "symbol": "BTCUSD", "signal_type": "MARKET" },
+      { "text": "Asset: BTCUSD\nSignal: SELL\nEntry: MARKET\nRisk Level: 81600\nTarget 1: 79900\nTarget 2: 79000", "direction": "SELL", "symbol": "BTCUSD", "signal_type": "MARKET" }
     ],
     "negative": [
       { "text": "bitcoin analysis possible buy later" },
